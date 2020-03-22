@@ -30,7 +30,7 @@
                 <vue-recaptcha ref="recaptcha"
                                @verify="onVerify"
                                @expired="onExpired"
-                               sitekey="6LdACeMUAAAAAEL7Nz72ulZtfGKJ2OtpJK6XCSjB"
+                               sitekey="6LfUDuMUAAAAAKOJnBIYOwwsoHH2ButVK-Q7zXiE"
                                :loadRecaptchaScript="true"
                 />
             </el-form-item>
