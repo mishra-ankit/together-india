@@ -30,7 +30,7 @@
                 <vue-recaptcha ref="recaptcha"
                                @verify="onVerify"
                                @expired="onExpired"
-                               sitekey="6LeAxuIUAAAAAFjD8CTEEPXkg3RqaqCojDihOF3f"
+                               sitekey="6LdACeMUAAAAAEL7Nz72ulZtfGKJ2OtpJK6XCSjB"
                                :loadRecaptchaScript="true"
                 />
             </el-form-item>
@@ -86,19 +86,42 @@ export default {
                 ]
             },
             options: [
-                { label: 'Alberta', value: 'AB' },
-                { label: 'British Columbia', value: 'BC' },
-                { label: 'Manitoba', value: 'MB' },
-                { label: 'Newfoundland and Labrador', value: 'NL' },
-                { label: 'New Brunswick', value: 'NB' },
-                { label: 'Northwest Territories', value: 'NT' },
-                { label: 'Nova Scotia', value: 'NS' },
-                { label: 'Nunavut', value: 'NU' },
-                { label: 'Ontario', value: 'ON' },
-                { label: 'Prince Edward Island', value: 'PE' },
-                { label: 'Québec', value: 'QC' },
-                { label: 'Saskatchewan', value: 'SK' },
-                { label: 'Yukon', value: 'YT' },
+                { label: 'Andhra Pradesh', value: 'AP' },
+                { label: 'Arunachal Pradesh', value: 'PR' },
+                { label: 'Assam', value: 'AS' },
+                { label: 'Bihar', value: 'BR' },
+                { label: 'Chhattisgarh', value: 'CG' },
+                { label: 'Goa',	value: 'GA' },
+                { label: 'Gujarat', value: 'GJ' },
+                { label: 'Haryana',	value: 'HR' },
+                { label: 'Himachal Pradesh', value: 'HP' },
+                { label: 'Jharkhand', value: 'JH' },
+                { label: 'Karnataka', value: 'KA' },
+                { label: 'Kerala', value: 'KL' },
+                { label: 'Madhya Pradesh', value: 'MP' },
+                { label: 'Maharashtra', value: 'MH' },
+                { label: 'Manipur', value: 'MN' },
+                { label: 'Meghalaya', value: 'ML' },
+                { label: 'Mizoram', value: 'MZ' },
+                { label: 'Nagaland', value: 'NL' },
+                { label: 'Odisha', value: 'OR' },
+                { label: 'Punjab', value: 'PB' },
+                { label: 'Rajasthan', value: 'RJ' },
+                { label: 'Sikkim', value: 'SK' },
+                { label: 'Tamil Nadu', value: 'TN' },
+                { label: 'Telangana', value: 'TG' },
+                { label: 'Tripura', value: 'TR' },
+                { label: 'Uttar Pradesh', value: 'UP' },
+                { label: 'Uttarakhand', value: 'UT' },
+                { label: 'West Bengal', value: 'WB' },
+                { label: 'Andaman and Nicobar Islands', value: 'AN' },
+                { label: 'Chandigarh', value: 'CH' },
+                { label: 'Dadra and Nagar Haveli and Daman and Diu', value: 'DD' },
+                { label: 'Delhi', value: 'DL' },
+                { label: 'Jammu and Kashmir', value: 'JK' },
+                { label: 'Ladakh', value: 'LA' },
+                { label: 'Lakshadweep', value: 'LD' },
+                { label: 'Puducherry', value: 'PY' },
             ]
         };
     },
@@ -124,7 +147,7 @@ export default {
                         ...this.form
                     });
 
-                    this.$message.success('Your message has been shared!');
+                    this.$message.success('Thanks for showing your support. Your message has been shared!');
                     this.$router.push({ name: 'index' });
                 }
             })

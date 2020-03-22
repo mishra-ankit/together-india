@@ -6,7 +6,7 @@
             <hr class="max-w-4xl mx-auto my-8 border-gray-200">
 
             <h2 class="text-red-500 text-2xl text-center uppercase tracking-tight">
-                Latest 60 messages <br>
+                Latest messages <br>
                 <small>({{ totalMessages }} messages total)</small>
             </h2>
             <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4">

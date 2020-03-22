@@ -6,8 +6,8 @@
                     <div class="flex items-center flex-grow md:absolute md:inset-y-0 md:left-0">
                         <div class="flex items-center justify-between w-full md:w-auto">
                             <nuxt-link :to="{ name: 'index' }">
-                                <img class="inline h-8 w-auto sm:h-10" src="/favicon.png" alt="Together North" />
-                                <span class="hidden md:inline md:ml-3 text-xl uppercase font-medium text-red-800 tracking-tight">Together <span class="text-red-600">North</span></span>
+                                <img class="inline h-8 w-auto sm:h-10" src="/favicon.png" alt="Together India" />
+                                <span class="hidden md:inline md:ml-3 text-xl uppercase font-medium text-red-800 tracking-tight">Together <span class="text-red-600">India</span></span>
                             </nuxt-link>
                             <div class="-mr-2 flex items-center md:hidden">
                                 <button @click="open = true" type="button"
@@ -29,7 +29,7 @@
                     <div class="rounded-lg bg-white shadow-xs overflow-hidden">
                         <div class="px-5 pt-4 flex items-center justify-between">
                             <nuxt-link :to="{ name: 'index' }">
-                                <img class="h-8 w-auto" src="/favicon.png" alt="Together North"/>
+                                <img class="h-8 w-auto" src="/favicon.png" alt="Together India"/>
                             </nuxt-link>
                             <div class="-mr-2">
                                 <button @click="open = false" type="button"

@@ -15,10 +15,10 @@ module.exports = {
     ** Headers of the page
     */
     head: {
-        title: 'Together North',
+        title: 'Together India',
         meta: [
             { charset: 'utf-8' },
-            { property: 'author', content: 'Together North' },
+            { property: 'author', content: 'Together India' },
             { name: 'viewport', content: 'width=device-width, initial-scale=1' },
             { hid: 'description', name: 'description', content: pkg.description },
             { name: 'theme-color', content: '#F5CD79' },
@@ -27,13 +27,13 @@ module.exports = {
             { httpEquiv: 'Content-Security-Policy', content: 'upgrade-insecure-requests' },
             { property: 'og:type', content: 'website' },
             { property: 'og:url', content: 'https://togethernorth.ca/' },
-            { property: 'og:title', content: 'Together North' },
-            { property: 'og:description', content: 'Share your support for Canadians in these difficult times.' },
+            { property: 'og:title', content: 'Together India' },
+            { property: 'og:description', content: 'Share your support for Indians in these difficult times.' },
             { property: 'og:image', content: 'https://togethernorth.ca/social.png' },
             { property: 'twitter:card', content: 'summary_large_image' },
             { property: 'twitter:url', content: 'https://togethernorth.ca/' },
-            { property: 'twitter:title', content: 'Together North' },
-            { property: 'twitter:description', content: 'Share your support for Canadians in these difficult times.' },
+            { property: 'twitter:title', content: 'Together India' },
+            { property: 'twitter:description', content: 'Share your support for Indians in these difficult times.' },
             { property: 'twitter:image', content: 'https://togethernorth.ca/social.png' },
         ],
         link: [

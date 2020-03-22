@@ -1,6 +1,8 @@
-# Together North
+Forked from - https://github.com/foxted/together-north.
 
-> Share your support for Canadians on the front lines.
+# Together India
+
+> Share your support for Indians on the front lines.
 
 ## Installation
 
@@ -20,14 +22,3 @@ $ npm install
 ```bash
 $ npm run dev
 ```
-
-## Contribute
-
-Everyone is welcome to contribute, here are a few ideas I had in mind: 
-
-- [ ] Add a feature to share the main page on social networks
-- [ ] Add a feature to share the #WeApplaud page on social networks
-- [ ] Add a feature to create a permalink to individual messages for folks
-- [ ] Add Canadian statistics about COVID-19 API https://covid19api.com/
-- [ ] Add a page to list all the initiatives going on across Canada for COVID-19
-
