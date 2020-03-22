@@ -26,9 +26,6 @@
             </div>
         </div>
         <div class="relative text-center">
-            <div class="flex flex-col items-center justify-center mb-6">
-                <img src="/logo.svg" alt="Together India" class="h-64">
-            </div>
             <h2 class="mb-6 text-4xl tracking-tight leading-snug font-bold text-gray-900 sm:text-5xl sm:leading-tight md:text-6xl">
                 Share your message of
                 <br>
