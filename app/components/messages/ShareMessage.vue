@@ -8,8 +8,8 @@
             <el-input v-model="form.city" placeholder="Enter your city"/>
         </el-form-item>
 
-        <el-form-item label="Province" prop="province" class="col-span-1">
-            <el-select v-model="form.province" placeholder="Select your province" filterable value-key="value"
+        <el-form-item label="State" prop="province" class="col-span-1">
+            <el-select v-model="form.province" placeholder="Select your state" autocomplete="off" filterable value-key="value"
                        class="block w-full" default-first-option
             >
                 <el-option v-for="item in options" :key="item.value"
