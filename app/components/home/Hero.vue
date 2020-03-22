@@ -45,7 +45,7 @@
                 <div class="rounded-md shadow">
                     <nuxt-link :to="{ name: 'share-your-message' }"
                                class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-red-600 hover:bg-red-500 focus:outline-none focus:shadow-outline-red transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10">
-                        {{ messageCount > 0 ? 'Share your message' : 'Be the first to share your message' }}
+                        Share your message
                     </nuxt-link>
                 </div>
             </div>
